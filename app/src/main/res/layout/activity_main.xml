@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextClock
+        android:id="@+id/main_activity_tc_clock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:format12Hour="hh:mm:ss a"
+        android:textColor="#F1511B"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/main_activity_btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignLeft="@+id/main_activity_tc_clock1"
+        android:layout_below="@+id/main_activity_tc_clock1"
+        android:layout_marginTop="30dp"
+        android:text="Get Time"/>
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_activity_btn_click"
+        android:layout_below="@+id/main_activity_btn_click"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</RelativeLayout>
